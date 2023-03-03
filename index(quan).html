@@ -103,6 +103,7 @@
     <p class="content">九、 我们的联系方式</p>
     <p class="content">十、 附录：权限申请及应用场景</p>
     <p class="content">十一、 附录：个人信息第三方共享目录</p>
+    <p class="content">十二、 附录：个人信息收集清单</p>
     <p class="subTitle">一、引言</p>
     <p>1、<span class="CompanyName"></span>（以下简称“我们”）深知个人信息对您的重要性。
         我们致力于维持您对我们的信任，保护您的个人信息。同时，我们承诺，我们将按业界成熟的安全标准，采取相应的安全保护措施来保护您的个人信息。
@@ -117,21 +118,6 @@
     <p class="content">个人信息是指以电子或者其他方式记录的能够单独或者与其他信息结合识别特定自然人身份或者反映特定自然人活动情况的各种信息。
         收集个人信息的目的在于向您提供产品和/或服务，并且保证我们遵守适用的相关法律、法规及其他规范性文件。您有权自行选择是否提供该信息，
         但多数情况下，如果您不提供，我们可能无法向您提供相应的服务，也无法回应您遇到的问题。</p>
-
-    <table border="1" cellspacing="0" cellpadding="10">
-        <tr>
-            <td>第三方SDK名称</td>
-            <td>使用场景描述</td>
-            <td>共享的个人信息类型</td>
-            <td>SDK个人信息保护政策地址</td>
-        </tr>
-        <tr>
-            <td>友盟SDK</td>
-            <td>用于统计分析</td>
-            <td>唯一设备识别码（IMEI/android ID/IDFA/OPENUDID/GUID、SIM 卡 IMSI 信息）</td>
-            <td>https://www.umeng.com/page/policy?spm=a211eg.10560647.0.0.547034dcafEUZJ</td>
-        </tr>
-    </table>
     <p class="subTitle">（一）我们将收集您的哪些信息？</p>
 
     <p class="content">1.设备信息：</p>
@@ -346,7 +332,7 @@
         <tr>
             <td>网络权限</td>
             <td>访问网络信息</td>
-            <td>用于网络获取数据等</td>
+            <td>用于账号服务、网络获取数据等</td>
         </tr>
         <tr>
             <td>获取手机信息权限</td>
@@ -354,10 +340,137 @@
                 IMSI、ICCID、GAID、MEID，iOS如IDFV、IDFA，本清单中所指的“设备标识信息”均同本定义）、硬件序列号、MAC地址、gid，涉及到用户设备的IMEI信息</td>
             <td>读取手机状态，涉及到用户设备的IMEI信息，用于识别用户、保障您的帐号、网络、运营及系统安全，预防钓鱼网站欺诈及木马病毒及进行用户数据统计（安装、活跃度等）。</td>
         </tr>
+        <tr>
+            <td>读写手机存储</td>
+            <td>访问您设备上的照片、媒体内容和文件</td>
+            <td>用于获取本地素材进行编辑、保存编辑后的素材到本地</td>
+        </tr>
+        <tr>
+            <td>拍照权限</td>
+            <td>调用相机</td>
+            <td>用于拍摄照片或视频进行编辑</td>
+        </tr>
+        <tr>
+            <td>获取所有安装应用权限</td>
+            <td>获取所有安装的应用</td>
+            <td>用于第三方登录分享是否安装应用、广告精确投放</td>
+        </tr>
+        <tr>
+            <td>通知权限</td>
+            <td>向用户发送通知</td>
+            <td>向用户推送平台活动、营销信息等。</td>
+        </tr>
+        <tr>
+            <td>未知来源安装权限</td>
+            <td>允许应用程序请求安装包</td>
+            <td>用于用户下载游戏安装包</td>
+        </tr>
+        <tr>
+            <td>日历权限</td>
+            <td>获取用户日历权限，写入用户的日程</td>
+            <td>用于日历数据展示，将触发日历权限以提醒用户在特定时间参与相关活动</td>
+        </tr>
     </table>
 
     <p class="content">  </p>
+    <p class="subTitle">十一、附录：个人信息第三方共享目录</p>
+    <table border="1" cellspacing="0" cellpadding="10">
+        <tr>
+            <td>第三方SDK名称</td>
+            <td>使用场景描述</td>
+            <td>共享的个人信息类型</td>
+            <td>SDK个人信息保护政策地址</td>
+        </tr>
+        <tr>
+            <td>华为SDK</td>
+            <td>提供华为账号登录、支付订阅服务、机器学习服务</td>
+            <td>deviceId、运营商、IMSI、SSID、BSSID、地理位置、获取应用安装列表</td>
+            <td>https://consumer.huawei.com/cn/privacy/privacy-policy</td>
+        </tr>
+        <tr>
+            <td>华为分析SDK</td>
+            <td>进行用户行为数据的埋点与上报</td>
+            <td>设备标识信息、网络状态权限</td>
+            <td>https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides/android-personal-data-0000001050705120</td>
+        </tr>
+        <tr>
+            <td>友盟+SDK</td>
+            <td>用于统计分析</td>
+            <td>唯一设备识别码（IMEI/android ID/IDFA/OPENUDID/GUID、SIM 卡 IMSI 信息）</td>
+            <td>https://www.umeng.com/page/policy?spm=a211eg.10560647.0.0.547034dcafEUZJ</td>
+        </tr>
+        <tr>
+            <td>第三方支付SDK（支付宝、微信支付）</td>
+            <td>当用户进行付款业务时，调用第三方支付SDK</td>
+            <td>设备标识信息、MAC地址、设备序列号（Build.Serial）、WIFI名称、ip、获取运行中的进程信息</td>
+            <td>支付宝：https://opendocs.alipay.com/open/54
+                微信支付：https://www.tenpay.com/v3/helpcenter/low/privacy.shtml</td>
+        </tr>
+        <tr>
+            <td>腾讯优量汇</td>
+            <td>用QQ微信登录、绑定QQ微信帐号、分享到QQ微信好友或QQ空间朋友圈</td>
+            <td>ICCID、androidId、地理位置、获取应用安装列表</td>
+            <td>https://wiki.open.qq.com/wiki</td>
+        </tr>
+        <tr>
+            <td>穿山甲</td>
+            <td>提供广告服务</td>
+            <td>设备标识信息、地理位置、MAC地址、IP地址、应用列表信息、设备序列号（Build.Serial）、网络运营商、获取运行中的进程信息</td>
+            <td>http://partner.toutiao.com/privacy</td>
+        </tr>
+        <tr>
+            <td>快手联盟</td>
+            <td>提供广告服务</td>
+            <td>设备品牌、设备型号、软件系统版本、存储信息、运营商信息、设备时区、设备语言、网络信息等，设备标识、位置信息（IP地址、MAC 地址、GPS 位置信息、基站信息、WIFI 信息）、传感器信息、sim卡激活信息</td>
+            <td>https://u.kuaishou.com/home/help/detail/1337/1427</td>
+        </tr>
+    </table>
 
+    <p class="content">  </p>
+    <p class="subTitle">十二、附录：个人信息收集清单</p>
+    <table border="1" cellspacing="0" cellpadding="10">
+        <tr>
+            <td>功能/服务名称</td>
+            <td>个人信息类型</td>
+            <td>使用场景</td>
+        </tr>
+        <tr>
+            <td>注册与登录</td>
+            <td>手机号码、昵称、头像、地区、性别等。</td>
+            <td>在您注册帐号时，您根据要求提供的个人注册信息，通过合法途径从商业伙伴处取得的用户个人数据（比如小米、华为、魅族、QQ微信登录）</td>
+        </tr>
+        <tr>
+            <td>网络及运营安全保障</td>
+            <td>设备标识信息（指由设备制造商编入到设备以对其进行标识的一串字符，Android如IMEI、AndroidID、OAID、
+                IMSI、ICCID、GAID、MEID，iOS如IDFV、IDFA，本清单中所指的“设备标识信息”均同本定义）、硬件序列号、MAC地址、gid</td>
+            <td>帐号、网络、运营及系统的安全保障、预防钓鱼网站欺诈及木马病毒</td>
+        </tr>
+        <tr>
+            <td>客户服务</td>
+            <td>姓名、手机号码、电子邮件及其他有效的联系方式</td>
+            <td>用于回复用户的投诉、咨询或申诉</td>
+        </tr>
+        <!--        <tr>-->
+        <!--            <td>个性化展示</td>-->
+        <!--            <td>IMEI、语言及时区、应用列表信息、浏览记录、正在运行的进程信息</td>-->
+        <!--            <td>推荐个性化内容或广告</td>-->
+        <!--        </tr>-->
+        <tr>
+            <td>产品安全维护</td>
+            <td>EXIF数据、IMEI、设备型号信息及登陆IP地址、操作日志信息、设备品牌、系统版本、CPU信息</td>
+            <td>保障帐号安全、排查产品故障、改进及优化服务</td>
+        </tr>
+        <tr>
+            <td>保障帐号安全</td>
+            <td>有效身份信息</td>
+            <td>修改密码、安全验证、申诉行为，且操作行为存在异常时验证身份</td>
+        </tr>
+        <tr>
+            <td>内容分享和调起第三方支付等功能</td>
+            <td>应用列表信息</td>
+            <td>判断第三方平台是否存在</td>
+        </tr>
+    </table>
 </div>
 
 <script>
