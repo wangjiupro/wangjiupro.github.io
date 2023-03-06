@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7340977-c0f6-400e-8aa6-58d35c465725" name="Changes" comment="隐私政策修改1" />
+    <list default="true" id="f7340977-c0f6-400e-8aa6-58d35c465725" name="Changes" comment="隐私政策修改2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -148,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677849981845</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="隐私政策修改2">
+      <created>1677850414085</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1677850414085</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -167,6 +176,7 @@
     <MESSAGE value="备案测试" />
     <MESSAGE value="备案号" />
     <MESSAGE value="隐私政策修改1" />
-    <option name="LAST_COMMIT_MESSAGE" value="隐私政策修改1" />
+    <MESSAGE value="隐私政策修改2" />
+    <option name="LAST_COMMIT_MESSAGE" value="隐私政策修改2" />
   </component>
 </project>
