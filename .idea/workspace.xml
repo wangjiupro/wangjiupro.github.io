@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7340977-c0f6-400e-8aa6-58d35c465725" name="Changes" comment="隐私政策修改5">
+    <list default="true" id="f7340977-c0f6-400e-8aa6-58d35c465725" name="Changes" comment="隐私政策修改6">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -199,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678278569288</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="隐私政策修改6">
+      <created>1679271490963</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1679271490964</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -222,6 +229,7 @@
     <MESSAGE value="隐私政策修改3" />
     <MESSAGE value="隐私政策修改4" />
     <MESSAGE value="隐私政策修改5" />
-    <option name="LAST_COMMIT_MESSAGE" value="隐私政策修改5" />
+    <MESSAGE value="隐私政策修改6" />
+    <option name="LAST_COMMIT_MESSAGE" value="隐私政策修改6" />
   </component>
 </project>
