@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7340977-c0f6-400e-8aa6-58d35c465725" name="Changes" comment="隐私政策修改6">
+    <list default="true" id="f7340977-c0f6-400e-8aa6-58d35c465725" name="Changes" comment="隐私政策修改添加会员后">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/index4.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,7 +207,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679271490964</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="隐私政策修改添加会员后">
+      <created>1680018493513</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1680018493513</updated>
+    </task>
+    <task id="LOCAL-00025" summary="隐私政策修改添加会员后">
+      <created>1680018766204</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1680018766204</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -229,6 +245,7 @@
     <MESSAGE value="隐私政策修改4" />
     <MESSAGE value="隐私政策修改5" />
     <MESSAGE value="隐私政策修改6" />
-    <option name="LAST_COMMIT_MESSAGE" value="隐私政策修改6" />
+    <MESSAGE value="隐私政策修改添加会员后" />
+    <option name="LAST_COMMIT_MESSAGE" value="隐私政策修改添加会员后" />
   </component>
 </project>
